@@ -2,8 +2,7 @@ class Solution:
     def minimumAverageDifference(self, nums: List[int]) -> int:
         n = len(nums)
         if n == 1:
-            retur
-            n 0
+            return 0
 
         queue = deque(nums[1:])
 
