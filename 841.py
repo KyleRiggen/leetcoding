@@ -9,4 +9,4 @@ class Solution:
             for key in rooms[room]:
                 if key not in visited_rooms:
                     stack.append(key)
-        return len(visited_rooms) == len(rooms) 
+        return len(visited_rooms) == len(rooms)
