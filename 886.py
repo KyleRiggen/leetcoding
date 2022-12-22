@@ -29,4 +29,4 @@ class Solution:
                 for dis in self.graph[i][1:]:  # For each dislike node
                     if not uf.union(dis, parent_dislike_i,
                                     parent_i): return False  # Return False if there is a conflict when grouping
-        return True            
+        return True
