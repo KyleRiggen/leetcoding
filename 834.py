@@ -27,4 +27,4 @@ class Solution:
                 if not ans[xx]:
                     ans[xx] = ans[x] + n - 2 * size[xx]
                     stack.append(xx)
-        return ans 
+        return ans
