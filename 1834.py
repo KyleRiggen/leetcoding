@@ -14,4 +14,4 @@ class Solution:
 
             heappush(heap, (pro, i, enq))
 
-        return ans + [i for _, i, _ in sorted(heap)] 
+        return ans + [i for _, i, _ in sorted(heap)]
